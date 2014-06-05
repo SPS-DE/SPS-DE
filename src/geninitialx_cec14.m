@@ -14,6 +14,11 @@ for i = 1 : numel(D)
 		repmat(ub - lb, Di, NP) .* lhsdesign(NP, Di, 'iteration', 100)'; %#ok<*NASGU>
 	Xname = sprintf('XD%dNP%d', Di, NP);
 	eval(sprintf('%s = X;', Xname));
-	save('InitialX.mat', Xname, '-append');
+	
+	if i == 1
+		save('InitialX.mat', Xname);
+	else
+		save('InitialX.mat', Xname, '-append');
+	end
 end
 end
