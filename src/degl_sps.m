@@ -13,7 +13,7 @@ end
 
 defaultOptions.NP = 100;
 defaultOptions.CR = 0.5;
-defaultOptions.Q = 70;
+defaultOptions.Q = 128;
 defaultOptions.NeighborhoodRatio = 0.1;
 defaultOptions.Display = 'off';
 defaultOptions.RecordPoint = 100;

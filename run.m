@@ -31,6 +31,10 @@ metafilename = run_complete_cec11(nruns);
 [metafilename_cec11_o, metafilename_cec11_sps] = ...
 	separateFilenames(metafilename);
 readcec11data(metafilename_cec11_o, metafilename_cec11_sps);
+GenContGraph_CEC11;
+GenConvGraph_CEC11;
+GenQbarGraph_CEC11;
+GenQdynGraph_CEC11;
 
 % 90 test functions in CEC 2014 benchmarks at D = 10, 30, 50 with
 % increasing stagnation tolerance Q = 1, 2, 4, 8, 16, 32, 64, 128, 256, 512

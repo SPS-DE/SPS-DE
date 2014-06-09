@@ -14,7 +14,7 @@ end
 
 defaultOptions.NP = 100;
 defaultOptions.LP = 40;
-defaultOptions.Q = 70;
+defaultOptions.Q = 128;
 defaultOptions.Display = 'off';
 defaultOptions.RecordPoint = 100;
 defaultOptions.ftarget = -Inf;
