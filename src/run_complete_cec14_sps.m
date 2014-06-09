@@ -1,4 +1,4 @@
-function metafilename = run_complete_cec14_sps(D)
+function metafilename = run_complete_cec14_sps(D, nruns)
 %
 % Copyright (C) 2014 Chin-Chang Yang
 % See the license at https://github.com/SPS-DE/SPS-DE
@@ -19,7 +19,7 @@ solvers = {...
 	'shade_sps'};
 Q = 2.^(0:9);
 measureOptions.Dimension = D;
-measureOptions.Runs = 51;
+measureOptions.Runs = nruns;
 measureOptions.MaxFunEvals = measureOptions.Dimension * 1e4;
 measureOptions.LowerBounds = -100;
 measureOptions.UpperBounds = 100;

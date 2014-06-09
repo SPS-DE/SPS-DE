@@ -21,7 +21,17 @@ solvers = {...
 cont = zeros(30, 21, numel(solvers));
 
 for i = 1 : numel(solvers)
-	tmp = xlsread(QDYN_XLSX_NAME, solvers{i}, 'A1:U31');
+	for retry = 1 : 10
+		try
+			tmp = xlsread(QDYN_XLSX_NAME, solvers{i}, 'A1:U31');
+			break;
+		catch ME
+			pause(0.1);
+			if retry == 10
+				rethrow(ME);
+			end
+		end
+	end
 	generation = tmp(1, :);
 	cont(:, :, i) = tmp(2 : end, :);
 end

@@ -25,7 +25,7 @@ addpath(genpath(functionPath));
 addpath(genpath(cauchyPath));
 
 % Four real-world optimization problems
-nruns = 4;
+nruns = 51;
 geninitialx_cec11;
 metafilename = run_complete_cec11(nruns);
 [metafilename_cec11_o, metafilename_cec11_sps] = ...

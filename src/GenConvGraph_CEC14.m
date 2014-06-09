@@ -20,8 +20,18 @@ solvers = {...
 
 conv = zeros(30, 21, numel(solvers));
 
-for i = 1 : numel(solvers)
-	tmp = xlsread(CONV_XLSX_NAME, solvers{i}, 'A1:U31');
+for i = 1 : numel(solvers)	
+	for retry = 1 : 10
+		try
+			tmp = xlsread(CONV_XLSX_NAME, solvers{i}, 'A1:U31');
+			break;
+		catch ME
+			pause(0.1);
+			if retry == 10
+				rethrow(ME);
+			end
+		end
+	end
 	generation = tmp(1, :);
 	conv(:, :, i) = tmp(2 : end, :);
 end
