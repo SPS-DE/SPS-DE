@@ -1,3 +1,7 @@
+function GenContGraph_CEC11
+%
+% Copyright (C) 2014 Chin-Chang Yang
+% See the license at https://github.com/SPS-DE/SPS-DE
 Q = 32;
 CONT_XLSX_NAME = sprintf('CEC11_Q%d_CONT.xlsx', Q);
 CONT_GRAPH_NAME = sprintf('CEC11_Q%d_CONTGRAPH.xlsx', Q);
@@ -49,9 +53,10 @@ for i = 1 : nf
 	end
 end
 
-for i = 1 : nf	
-	sheet = sprintf('f%d', i);	
+for i = 1 : nf
+	sheet = sprintf('f%d', i);
 	xlswrite(CONT_GRAPH_NAME, titledata, sheet, 'A1:A13');
 	xlswrite(CONT_GRAPH_NAME, data(:, :, i), sheet, 'B1:V13');
 	fprintf('%s: OK!\n', sheet);
+end
 end

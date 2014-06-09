@@ -1,9 +1,9 @@
 function [xmin, fmin, out] = debest1bin(fitfun, lb, ub, maxfunevals, options)
-% DEBEST1BIN_S DE/BEST/1/BIN
-% DEBEST1BIN_S(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
+% DEBEST1BIN DE/BEST/1/BIN
+% DEBEST1BIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.
-% DEBEST1BIN_S(..., options) minimize the function by solver options.
+% DEBEST1BIN(..., options) minimize the function by solver options.
 %
 % Copyright (C) 2014 Chin-Chang Yang
 % See the license at https://github.com/SPS-DE/SPS-DE
