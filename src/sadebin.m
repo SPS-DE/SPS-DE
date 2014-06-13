@@ -1,5 +1,8 @@
 function [xmin, fmin, out] = sadebin(fitfun, lb, ub, maxfunevals, options)
-% SADEBIN SaDE
+% SADEBIN SaDE, originally proposed by A. K. Qin et al., "Differential
+% evolution algorithm with strategy adaptation for global numerical
+% optimization," IEEE Trans. Evol. Comput., vol. 13, no. 2, pp. 398-417,
+% Apr. 2009.
 % SADEBIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.

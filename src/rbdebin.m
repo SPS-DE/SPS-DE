@@ -1,5 +1,8 @@
 function [xmin, fmin, out] = rbdebin(fitfun, lb, ub, maxfunevals, options)
-% RBDEBIN Differential evolution with rank-based mutation
+% RBDEBIN Differential evolution with rank-based mutation, originally
+% proposed by A. M. Sutton et al., "Differential evolution and
+% non-separability: Using selective pressure to focus search," in Proc. 9th
+% Annu. Conf. GECCO, Jul. 2007, pp. 1428-1435.
 % RBDEBIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.

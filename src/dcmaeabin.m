@@ -1,6 +1,8 @@
 function [xmin, fmin, out] = dcmaeabin(fitfun, lb, ub, maxfunevals, options)
 % DCMAEABIN Differential covariance matrix adaptation evolutionary
-% algorithm
+% algorithm, originally proposed by S. Ghosh et al., "A differential
+% covariance matrix adaptation evolutionary algorithm for real parameter
+% optimization," Inform. Sci., vol. 182, no. 1, pp. 199-219, Jan. 2012.
 % DCMAEABIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.

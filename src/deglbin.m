@@ -1,5 +1,7 @@
 function [xmin, fmin, out] = deglbin(fitfun, lb, ub, maxfunevals, options)
-% DEGLBIN DEGL Algorithm
+% DEGLBIN DEGL Algorithm, originally S. Das et al., "Differential evolution
+% using a neighborhood-based mutation operator," IEEE Trans. Evol. Comput.,
+% vol. 13, no. 3, pp. 526-553, Jun. 2009.
 % DEGLBIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.

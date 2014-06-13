@@ -1,5 +1,7 @@
 function [xmin, fmin, out] = jadebin(fitfun, lb, ub, maxfunevals, options)
-% JADEBIN JADE algorithm
+% JADEBIN JADE algorithm, originally proposed by J. Zhang and A. Sanderson,
+% "JADE: Adaptive differential evolution with optional external archive,"
+% IEEE Trans. Evol. Comput., vol. 13, no. 5, pp. 945-958, Oct. 2009.
 % JADEBIN(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.

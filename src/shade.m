@@ -1,5 +1,8 @@
 function [xmin, fmin, out] = shade(fitfun, lb, ub, maxfunevals, options)
-% SHADE SHADE algorithm
+% SHADE SHADE algorithm, originally proposed by R. Tanabe, A.
+% Fukunaga,"Success-history based parameter adaptation for differential
+% evolution," in Proc. IEEE Congr. Evol. Comput., Cancun, Mexico, Jun.
+% 2013, pp. 71-78.
 % SHADE(fitfun, lb, ub, maxfunevals) minimize the function fitfun in
 % box constraints [lb, ub] with the maximal function evaluations
 % maxfunevals.
