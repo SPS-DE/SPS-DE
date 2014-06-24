@@ -3,14 +3,18 @@ SPS-DE
 
 Successful-Parent-Selecting Differential Evolution
 
+This project improves the performance of differential evolution with the proposed successful-parent-selecting framework. The introduction of this algorithm can be read in the **Paper**. The simulation results have been preproduced (see **Preproduced Results**). In the **Author's Environments**, the simulation results can be reproduced by running the source codes (see **Reproduce Simulation Results**). The use of the source codes is under the **License** as shown in the final section.
+
 Paper
 -----
 S.-M. Guo, C.-C. Yang, P.-H. Hsu, and J. S.-H. Tsai, "Improving differential evolution with successful-parent-selecting framework," *under review for IEEE Trans. Evol. Comput.*, 2014.
 
-Reproduce Simulation Results
-----------------------------
-* Run run.m
-* The raw data are stored in "src/\*.mat" files. They are formatted in "src/\*.xlsx" files.
+Preproduced Results
+-------------------
+
+* The results of real-world optimization problems are stored in "data/xlsx/CEC11/\*.xlsx" files.
+* The results of CEC 2014 optimization problems are stored in "data/xlsx/CEC14\_D10/\*.xlsx", "data/xlsx/CEC14\_D30/\*.xlsx", "data/xlsx/CEC14\_D50/\*.xlsx", and "data/xlsx/CEC14_D100/\*.xlsx", at D = 10, 30, 50, and 100, respectively.
+* The figures are stored in "data/figures/\*.pdf" and "data/figures/\*.xlsx".
 
 Author's Environments
 ---------------------
@@ -19,12 +23,10 @@ Author's Environments
 * Windows 7 or 8 (to run benchmark functions)
 * 40GB disk free space (to store the reproduced data)
 
-Pre-Reproduced Results
-----------------------
-
-* The results of real-world optimization problems are stored in "data/xlsx/CEC11/\*.xlsx" files.
-* The results of CEC 2014 optimization problems are stored in "data/xlsx/CEC14\_D10/\*.xlsx", "data/xlsx/CEC14\_D30/\*.xlsx", "data/xlsx/CEC14\_D50/\*.xlsx", and "data/xlsx/CEC14_D100/\*.xlsx", at D = 10, 30, 50, and 100, respectively.
-* The figures are stored in "data/figures/\*.pdf" and "data/figures/\*.xlsx".
+Reproduce Simulation Results
+----------------------------
+* Run run.m
+* The raw data are stored in "src/\*.mat" files. They are formatted in "src/\*.xlsx" files.
 
 License
 -------
