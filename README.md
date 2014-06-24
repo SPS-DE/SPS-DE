@@ -3,23 +3,24 @@ SPS-DE
 
 Improving Differential Evolution with Successful-Parent-Selecting Framework
 
-Reproduce simulation results
---------------------------------
+Reproduce Simulation Results
+----------------------------
 * Run run.m
-* The raw data are stored in "src/*.mat" files. They are formatted in "src/*.xlsx" files.
+* The raw data are stored in "src/\*.mat" files. They are formatted in "src/\*.xlsx" files.
 
-Environments
-------------
+Author's Environments
+---------------------
 
-* Matlab(R) R2012b with Statistics Toolbox(TM)
+* Matlab(R) R2012b with all built-in toolbox (to run the MATLAB code)
+* Windows 7 or 8 (to run benchmark functions)
 * 40GB disk free space (to store the reproduced data)
 
-Pre-reproduced results
+Pre-Reproduced Results
 ----------------------
 
-* The results of real-world optimization problems are stored in "data/xlsx/CEC11/*.xlsx" files.
-* The results of CEC 2014 optimization problems are stored in "data/xlsx/CEC14_D10/*.xlsx", "data/xlsx/CEC14_D30/*.xlsx", "data/xlsx/CEC14_D50/*.xlsx", and "data/xlsx/CEC14_D100/*.xlsx", at D = 10, 30, 50, and 100, respectively.
-* The figures are stored in "data/figures/*.pdf" and "data/figures/*.xlsx".
+* The results of real-world optimization problems are stored in "data/xlsx/CEC11/\*.xlsx" files.
+* The results of CEC 2014 optimization problems are stored in "data/xlsx/CEC14\_D10/\*.xlsx", "data/xlsx/CEC14\_D30/\*.xlsx", "data/xlsx/CEC14\_D50/\*.xlsx", and "data/xlsx/CEC14_D100/\*.xlsx", at D = 10, 30, 50, and 100, respectively.
+* The figures are stored in "data/figures/\*.pdf" and "data/figures/\*.xlsx".
 
 License
 -------
