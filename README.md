@@ -3,6 +3,10 @@ SPS-DE
 
 Successful-Parent-Selecting Differential Evolution
 
+Paper
+-----
+S.-M. Guo, C.-C. Yang, P.-H. Hsu, and J. S.-H. Tsai, "Improving differential evolution with successful-parent-selecting framework," *under review for IEEE Trans. Evol. Comput.*, 2014.
+
 Reproduce Simulation Results
 ----------------------------
 * Run run.m
