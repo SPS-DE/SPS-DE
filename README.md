@@ -1,7 +1,7 @@
 SPS-DE
 ======
 
-Improving Differential Evolution with Successful-Parent-Selecting Framework
+Successful-Parent-Selecting Differential Evolution
 
 Reproduce Simulation Results
 ----------------------------
