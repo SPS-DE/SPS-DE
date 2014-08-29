@@ -15,6 +15,7 @@ Preproduced Results
 * The results of real-world optimization problems are stored in "data/xlsx/CEC11/\*.xlsx" files.
 * The results of CEC 2014 optimization problems are stored in "data/xlsx/CEC14\_D10/\*.xlsx", "data/xlsx/CEC14\_D30/\*.xlsx", "data/xlsx/CEC14\_D50/\*.xlsx", and "data/xlsx/CEC14_D100/\*.xlsx", at D = 10, 30, 50, and 100, respectively.
 * The figures are stored in "data/figures/\*.pdf" and "data/figures/\*.xlsx".
+* The running time of all considered algorithms and their SPS variants is stored in "data/xlsx/CEC14\_TIME\*.xlsx" files.
 
 Author's Environments
 ---------------------

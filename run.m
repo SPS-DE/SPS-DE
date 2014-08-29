@@ -90,3 +90,9 @@ for j = 1 : numel(Qs)
 	GenQbarGraph_CEC14(100, Q);
 	GenQdynGraph_CEC14(100, Q);
 end
+
+% Real computation time of DEs and their SPS variants on CEC 2014
+% benchmarks at D = 30 with Q = 32 over 51 independent runs
+filename_time_o = run_computation_time_o(30, 51);
+filename_time_sps = run_computation_time_sps(30, 32, 51);
+GenRunningTimeReport(filename_time_o, filename_time_sps);
