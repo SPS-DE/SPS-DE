@@ -7,7 +7,7 @@ This project improves the performance of differential evolution with the propose
 
 Paper
 -----
-S.-M. Guo, C.-C. Yang, P.-H. Hsu, and J. S.-H. Tsai, "Improving differential evolution with successful-parent-selecting framework," *IEEE Trans. Evol. Comput.*, to be published, 2014.
+S.-M. Guo, C.-C. Yang, P.-H. Hsu, and J. S.-H. Tsai, "Improving differential evolution with successful-parent-selecting framework," *IEEE Trans. Evol. Comput.*, Available Online, 2014, http://dx.doi.org/10.1109/TEVC.2014.2375933.
 
 Preproduced Results
 -------------------
